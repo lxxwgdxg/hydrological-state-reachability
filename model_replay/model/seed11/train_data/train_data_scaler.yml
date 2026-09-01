@@ -1,0 +1,130 @@
+attribute_means:
+  area_gages2: 503.85499999999996
+  aridity: 1.3606610657214901
+  carbonate_rocks_frac: 0.1691579241465564
+  clay_frac: 16.276888087603975
+  dom_land_cover_frac: 0.7801705782703005
+  elev_mean: 1193.6091666666669
+  frac_forest: 0.5987166666666667
+  frac_snow: 0.2482950776230991
+  geol_permeability: -13.581358333333334
+  geol_porostiy: 0.11211666666666668
+  glim_1st_class_frac: 0.7933176940826874
+  glim_2nd_class_frac: 0.13690891564565436
+  gvf_diff: 0.23097498255349977
+  gvf_max: 0.6331575297244886
+  high_prec_dur: 1.4741367031465622
+  high_prec_freq: 20.40625
+  lai_diff: 1.7691619136252126
+  lai_max: 2.588217057587135
+  low_prec_dur: 8.086495794626233
+  low_prec_freq: 263.125
+  max_water_content: 0.48467845175465757
+  p_mean: 3.2970370750627427
+  p_seasonality: -0.29580975990439085
+  pet_mean: 3.0213464128450824
+  sand_frac: 40.755662801732086
+  silt_frac: 28.338562577860007
+  slope_mean: 74.86313666666668
+  soil_conductivity: 2.0500536595624013
+  soil_depth_pelletier: 6.795427165447286
+  soil_depth_statsgo: 1.235637933513333
+  soil_porosity: 0.43497541559127484
+attribute_stds:
+  area_gages2: 612.1986032255417
+  aridity: 0.8927201627851384
+  carbonate_rocks_frac: 0.35048838028016194
+  clay_frac: 7.390369299354895
+  dom_land_cover_frac: 0.2095978558149137
+  elev_mean: 992.0787272403101
+  frac_forest: 0.38321513956054215
+  frac_snow: 0.26178719148441626
+  geol_permeability: 1.1434966998361786
+  geol_porostiy: 0.06839601861452785
+  glim_1st_class_frac: 0.2119925676017976
+  glim_2nd_class_frac: 0.15733800766152922
+  gvf_diff: 0.14677231605011426
+  gvf_max: 0.21812643706000837
+  high_prec_dur: 0.20125100526828474
+  high_prec_freq: 5.636050739195187
+  lai_diff: 1.3202621926323879
+  lai_max: 1.6806296288905669
+  low_prec_dur: 5.566550331157331
+  low_prec_freq: 45.68590544710413
+  max_water_content: 0.1772114643685106
+  p_mean: 2.0976300742048446
+  p_seasonality: 0.6731064959953503
+  pet_mean: 0.7651695118491595
+  sand_frac: 17.986121559552092
+  silt_frac: 11.595338278352456
+  slope_mean: 57.20909516198388
+  soil_conductivity: 1.701481163471169
+  soil_depth_pelletier: 14.764396292838233
+  soil_depth_statsgo: 0.34031166221721143
+  soil_porosity: 0.018659133973185398
+xarray_feature_scale:
+  coords: {}
+  attrs: {}
+  dims: {}
+  data_vars:
+    QObs(mm/d):
+      dims: []
+      attrs: {}
+      data: 1.0
+    dayl(s):
+      dims: []
+      attrs: {}
+      data: 7253.08251953125
+    prcp(mm/day):
+      dims: []
+      attrs: {}
+      data: 1.0
+    srad(W/m2):
+      dims: []
+      attrs: {}
+      data: 144.711669921875
+    tmax(C):
+      dims: []
+      attrs: {}
+      data: 11.302780151367188
+    tmin(C):
+      dims: []
+      attrs: {}
+      data: 9.845990180969238
+    vp(Pa):
+      dims: []
+      attrs: {}
+      data: 590.5050048828125
+xarray_feature_center:
+  coords: {}
+  attrs: {}
+  dims: {}
+  data_vars:
+    QObs(mm/d):
+      dims: []
+      attrs: {}
+      data: 0.0
+    dayl(s):
+      dims: []
+      attrs: {}
+      data: 43193.55859375
+    prcp(mm/day):
+      dims: []
+      attrs: {}
+      data: 0.0
+    srad(W/m2):
+      dims: []
+      attrs: {}
+      data: 358.0563659667969
+    tmax(C):
+      dims: []
+      attrs: {}
+      data: 15.73714828491211
+    tmin(C):
+      dims: []
+      attrs: {}
+      data: 2.711118221282959
+    vp(Pa):
+      dims: []
+      attrs: {}
+      data: 802.1774291992188

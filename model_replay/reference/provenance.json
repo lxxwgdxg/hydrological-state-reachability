@@ -1,0 +1,379 @@
+{
+  "package": "cee_reachability_model_replay_v1_release_candidate",
+  "basin": "03364500",
+  "seed": 11,
+  "epoch": 30,
+  "test_period": [
+    "2000-10-01",
+    "2010-09-30"
+  ],
+  "upstream": {
+    "record": "https://doi.org/10.5281/zenodo.14515143",
+    "version": "v9",
+    "archive_md5": "fdc2257eb67e2accaeec7792a572f7eb",
+    "license": "CC-BY-4.0",
+    "copied_python_file_count": 50
+  },
+  "camels_us": {
+    "license": "CC-BY-3.0",
+    "included_file_count": 9
+  },
+  "model_artifacts": [
+    {
+      "path": "model/seed11/model_epoch030.pt",
+      "source_path": "results/constraint_reachability_sample_norm/training_runs/dpl_h4_panel24_seed11_sample_norm_frozen_11_2108_171525/model_epoch030.pt",
+      "sha256": "0176531efb337f022d3ac5a46e289857b891d4aeff2884d3550cc30d0e7da61b",
+      "bytes": 3506378
+    },
+    {
+      "path": "model/seed11/train_data/train_data_scaler.yml",
+      "source_path": "results/constraint_reachability_sample_norm/training_runs/dpl_h4_panel24_seed11_sample_norm_frozen_11_2108_171525/train_data/train_data_scaler.yml",
+      "sha256": "eaff54fa51fa71ae502decae72977ec03523c2bfcf59c0261b62d85007c52a14",
+      "bytes": 3483
+    },
+    {
+      "path": "model/seed11/config.yml",
+      "source_path": "results/constraint_reachability_sample_norm/training_runs/dpl_h4_panel24_seed11_sample_norm_frozen_11_2108_171525/config.yml",
+      "sha256": "2b30e61402fc93b4b897a24b76ee8d5e9afb2e122ed69197e771d0b6adcb5656",
+      "bytes": 1757
+    }
+  ],
+  "hash_inventory": [
+    {
+      "path": "config/replay_basin.txt",
+      "sha256": "323a5ab8f8c35c533723caaca3f8ebabb7b77426ff007be94994a71f2f5397ee",
+      "bytes": 9
+    },
+    {
+      "path": "data/camels_us_basin_03364500/basin_mean_forcing/daymet/05/03364500_lump_cida_forcing_leap.txt",
+      "sha256": "b371df3ad475d75385340cbf990b4ece272e3c195e31c90bbb9a39a7a7746f67",
+      "bytes": 755879
+    },
+    {
+      "path": "data/camels_us_basin_03364500/camels_attributes_v2.0/camels_clim.txt",
+      "sha256": "6a3a80256afbaea13f59f279c174d3c010156b826ffb53a4cfb5508814404f5f",
+      "bytes": 100673
+    },
+    {
+      "path": "data/camels_us_basin_03364500/camels_attributes_v2.0/camels_geol.txt",
+      "sha256": "68e674b9cc61e57260a213681763d7b6b345c4f878a256e0e31275511cae8feb",
+      "bytes": 71595
+    },
+    {
+      "path": "data/camels_us_basin_03364500/camels_attributes_v2.0/camels_hydro.txt",
+      "sha256": "7dcae3ea8c28e6485fc9e39b3c5e8bb509d6354ebe9b0b98873ec47fa36e3c41",
+      "bytes": 122799
+    },
+    {
+      "path": "data/camels_us_basin_03364500/camels_attributes_v2.0/camels_name.txt",
+      "sha256": "f3a85272cd934c6e12386db5f21979675fc891844250a335135786ad9a2de445",
+      "bytes": 30417
+    },
+    {
+      "path": "data/camels_us_basin_03364500/camels_attributes_v2.0/camels_soil.txt",
+      "sha256": "2acabec448fda2d7d93c2182a8a148e0f6a2dfc40f6f0944ec09eda6eeea0a6d",
+      "bytes": 109125
+    },
+    {
+      "path": "data/camels_us_basin_03364500/camels_attributes_v2.0/camels_topo.txt",
+      "sha256": "b64ca9923bcaccf21dde33137903797919e8d6732edd7849f8534e0ddcbec8e8",
+      "bytes": 38677
+    },
+    {
+      "path": "data/camels_us_basin_03364500/camels_attributes_v2.0/camels_vege.txt",
+      "sha256": "ea97f5d91a2f5acccef21df08417729aade51afe9a2651ab30c2990e7ad63d74",
+      "bytes": 107970
+    },
+    {
+      "path": "data/camels_us_basin_03364500/usgs_streamflow/05/03364500_streamflow_qc.txt",
+      "sha256": "8ad4e5247fcc4f0ba9853dbc1cab1f37397de4f44ea0470ae7cea53a4ea0dd0d",
+      "bytes": 398478
+    },
+    {
+      "path": "model/seed11/config.yml",
+      "sha256": "2b30e61402fc93b4b897a24b76ee8d5e9afb2e122ed69197e771d0b6adcb5656",
+      "bytes": 1757
+    },
+    {
+      "path": "model/seed11/model_epoch030.pt",
+      "sha256": "0176531efb337f022d3ac5a46e289857b891d4aeff2884d3550cc30d0e7da61b",
+      "bytes": 3506378
+    },
+    {
+      "path": "model/seed11/train_data/train_data_scaler.yml",
+      "sha256": "eaff54fa51fa71ae502decae72977ec03523c2bfcf59c0261b62d85007c52a14",
+      "bytes": 3483
+    },
+    {
+      "path": "reference/expected_replay.json",
+      "sha256": "8f53757c91e5aadf799591f510c70500e1717bc6dfa0d36c49d9fa414058d18c",
+      "bytes": 3513
+    },
+    {
+      "path": "run_all.py",
+      "sha256": "f74dc6e746d70e45ad8b8166c9f5257494ad989ef6fbad7f550b97307a5060ab",
+      "bytes": 1320
+    },
+    {
+      "path": "scripts/audit_dpl_h4_sample_norm_checkpoint.py",
+      "sha256": "08954e4aa2365d7e3e05054bf4b313cb55a1d7fb5ed8df24c3d831aa4fcb4881",
+      "bytes": 19764
+    },
+    {
+      "path": "scripts/verify_replay.py",
+      "sha256": "2af072c7287db51cdf674e991854280cac97071a1c85cfc62dad86eb6116d06e",
+      "bytes": 5779
+    },
+    {
+      "path": "upstream_code/neuralhydrology/__about__.py",
+      "sha256": "179996d3ba52c86aea0cd636121afe5290f3a41b4df85b185344066567fa3c91",
+      "bytes": 22
+    },
+    {
+      "path": "upstream_code/neuralhydrology/__init__.py",
+      "sha256": "0607bcd28c33f74ce4e12d31c731c0d5dda5f7b89efe542fc69c1a4fd23dca01",
+      "bytes": 301
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/__init__.py",
+      "sha256": "5740164845b86cd7e5c4b7e99c2f05db7ba7785acdd858b82ef60981b30ef080",
+      "bytes": 4097
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/basedataset.py",
+      "sha256": "1555921fcffdea7d4054fb17a1714fa3b2db0db3f3ff614ff88448d51ca7ffb9",
+      "bytes": 38447
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/camelsaus.py",
+      "sha256": "9ae17a440b9abd6b8af20bc9f3b665c49b3e77b2417e09adcc4e1b2c070b0cdf",
+      "bytes": 8960
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/camelsbr.py",
+      "sha256": "d0ebf500d4deb675d3ca676b6adbef4673f30445a56aa858f49013373354c2b5",
+      "bytes": 10047
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/camelscl.py",
+      "sha256": "165a7888aa65e9b04680b6fd7d42f4fe3d89268cf3692c91b610d3b1a874ed67",
+      "bytes": 9298
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/camelsgb.py",
+      "sha256": "1bd0227db6528d0c2aad2ae0aeac211f2e534846c108086947a20ebfc38dccb3",
+      "bytes": 6729
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/camelsus.py",
+      "sha256": "be186c9bc656f999716bbfc4dbe5e4f983f5678e10690ce6721af276cbd97eaf",
+      "bytes": 9564
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/genericdataset.py",
+      "sha256": "134b739b2af15ce8afa84eec4caeb58b61755f2b919befeaa6bcc1b1163ee665",
+      "bytes": 9061
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/hourlycamelsus.py",
+      "sha256": "b26f8a4209c0c2219810c5739f8e0b594dbdec1b93092c8ddfa73b68e25645fa",
+      "bytes": 12454
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/lamah.py",
+      "sha256": "03d7238b56b93f2ee5a0ca0a540a9444eb1ab82c07d17ebeecf0fd0f8c28ce90",
+      "bytes": 13298
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datasetzoo/template.py",
+      "sha256": "75b25d88bb8533eb01512971f0819f554d14914ee9b17486e7976545946cefda",
+      "bytes": 5005
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datautils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datautils/climateindices.py",
+      "sha256": "eb0b576c7ac6411ce4bc040f1b7afb099eece3635d06cc8018ccfba2447e7ab2",
+      "bytes": 9401
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datautils/dischargeinput.py",
+      "sha256": "bba844298b7f7eecc136ecf1c3cf55ac2c7dfcb1b81aa858a298d2c6287c6854",
+      "bytes": 2879
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datautils/pet.py",
+      "sha256": "589ce7188d9c460c2c72ca5b3f52207fd6d2ca7dd1c18bc995f430be767635ca",
+      "bytes": 9061
+    },
+    {
+      "path": "upstream_code/neuralhydrology/datautils/utils.py",
+      "sha256": "03db63c1d67143a9d9633e4a08c1c3da490806021879df246443459d314f133f",
+      "bytes": 11618
+    },
+    {
+      "path": "upstream_code/neuralhydrology/evaluation/__init__.py",
+      "sha256": "21d421e9df19c9a34051ed8bc2706bf946b66b48c89583253956ae5b38fe94b0",
+      "bytes": 1414
+    },
+    {
+      "path": "upstream_code/neuralhydrology/evaluation/evaluate.py",
+      "sha256": "32c3b75152afceaee77786956103e17989c34b0292bd284ccbb90b7d19283c5d",
+      "bytes": 817
+    },
+    {
+      "path": "upstream_code/neuralhydrology/evaluation/metrics.py",
+      "sha256": "0e35e318c91b62bbd58dbc5500b1b0153d0b112c2bae3b419e89143d918fb613",
+      "bytes": 26490
+    },
+    {
+      "path": "upstream_code/neuralhydrology/evaluation/plots.py",
+      "sha256": "572c43fc7e377cd351b495ff287b4b13007de0cf708838f47c6f2473612e4937",
+      "bytes": 5878
+    },
+    {
+      "path": "upstream_code/neuralhydrology/evaluation/signatures.py",
+      "sha256": "b4cc5eaed8a8876213554d665e02c2613c3be304df4dc156c7ad6ba7761b1453",
+      "bytes": 24873
+    },
+    {
+      "path": "upstream_code/neuralhydrology/evaluation/tester.py",
+      "sha256": "f1a4d8b30d0595526a0b6500c91e8448c3616efce032050fad5422f2afc8161f",
+      "bytes": 32407
+    },
+    {
+      "path": "upstream_code/neuralhydrology/evaluation/utils.py",
+      "sha256": "16ed32d423c72acfd4645a8a0d8a22c12001e76134a6807cd411bdb3d0e9a4d1",
+      "bytes": 2685
+    },
+    {
+      "path": "upstream_code/neuralhydrology/modelzoo/__init__.py",
+      "sha256": "9570ff1c049a763cc6bc1f5b1b585d8646a268972aa3f99e1db1fef78ab21af5",
+      "bytes": 658
+    },
+    {
+      "path": "upstream_code/neuralhydrology/modelzoo/basemodel.py",
+      "sha256": "71ea16d80be254200a943e778bac0962d29d56971a4f6d7e2ebaa17d1266f1c0",
+      "bytes": 2718
+    },
+    {
+      "path": "upstream_code/neuralhydrology/modelzoo/ddpl_h.py",
+      "sha256": "d311ad916bd53fee3d0a6dbd8c41d6dd25403d8de4fdc52fdaac1ae3b748f526",
+      "bytes": 21571
+    },
+    {
+      "path": "upstream_code/neuralhydrology/modelzoo/fc.py",
+      "sha256": "cd13bdc4e516142b940c6e901df3365654ad2b77123453fb314b5995f0848af0",
+      "bytes": 3151
+    },
+    {
+      "path": "upstream_code/neuralhydrology/modelzoo/head.py",
+      "sha256": "708f03d0b00e857b7c50a2f014cd76044ecc3025ed653164160bea69c481869d",
+      "bytes": 9784
+    },
+    {
+      "path": "upstream_code/neuralhydrology/modelzoo/inputlayer.py",
+      "sha256": "73fcb70b1fa40714e1457a7c70206ea19c84e122d14445ef0b3373457653f489",
+      "bytes": 7538
+    },
+    {
+      "path": "upstream_code/neuralhydrology/nh_run.py",
+      "sha256": "e9f9304f1898eb8a85f0d167ecca9174a158315afd8fe6b658759a96502ac342",
+      "bytes": 6909
+    },
+    {
+      "path": "upstream_code/neuralhydrology/nh_run_one.py",
+      "sha256": "953ccdc0568fb7f9fcb9c5cf4eec9228722ccc65dbcd2bf5f81cf9c13d1e880d",
+      "bytes": 7660
+    },
+    {
+      "path": "upstream_code/neuralhydrology/nh_run_scheduler.py",
+      "sha256": "5087be1706b5131fdfc15d0fcc49976b1bc41942d4093f89d8533bf65616817f",
+      "bytes": 5648
+    },
+    {
+      "path": "upstream_code/neuralhydrology/training/__init__.py",
+      "sha256": "f6e1c8e5e7c6a9d4d0831382dc858ec1d5eb58c802675247fb80eed67760b7a7",
+      "bytes": 3096
+    },
+    {
+      "path": "upstream_code/neuralhydrology/training/basetrainer.py",
+      "sha256": "1025121e49c8df04d4458a901c2f730471d68e67547cc30a5351d7630d60919a",
+      "bytes": 16446
+    },
+    {
+      "path": "upstream_code/neuralhydrology/training/logger.py",
+      "sha256": "5ec81df7dc0e702385fde2776ff51fa99e9228cb14503f4b122dfdf567c94f9a",
+      "bytes": 6009
+    },
+    {
+      "path": "upstream_code/neuralhydrology/training/loss.py",
+      "sha256": "cf1cdce0bddc7c9f214224d4070eb3b1c96a8222d87d80ede6d032c4eb3fa43c",
+      "bytes": 16835
+    },
+    {
+      "path": "upstream_code/neuralhydrology/training/regularization.py",
+      "sha256": "e2fd73a3a0a0f47a1600f6527817f6cf7ea36d57a88f7037f346853f3b7556e4",
+      "bytes": 4188
+    },
+    {
+      "path": "upstream_code/neuralhydrology/training/train.py",
+      "sha256": "130605b4590badd1d4ea569530f53b814240bb356324ac1b23ed44218e47ef9a",
+      "bytes": 752
+    },
+    {
+      "path": "upstream_code/neuralhydrology/training/umaltrainer.py",
+      "sha256": "8ff8547f472dd5c8f412a34a79b179a5d89238d2983f81ddf63523a9b8e2c55c",
+      "bytes": 747
+    },
+    {
+      "path": "upstream_code/neuralhydrology/training/utils.py",
+      "sha256": "f41abb3b2c4ae4316cac256e76b0c4f48d9d65d7186ec2e75ae11753e32e9869",
+      "bytes": 2629
+    },
+    {
+      "path": "upstream_code/neuralhydrology/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "upstream_code/neuralhydrology/utils/config.py",
+      "sha256": "566f3f32b1d5882ff4b96de6fd0b5166f61107f6a027a2817996427d88202e66",
+      "bytes": 27327
+    },
+    {
+      "path": "upstream_code/neuralhydrology/utils/configutils.py",
+      "sha256": "25fb57e936154aa0804331622a78cbc1305f3eb8726f6dd72390de03016935bf",
+      "bytes": 1639
+    },
+    {
+      "path": "upstream_code/neuralhydrology/utils/errors.py",
+      "sha256": "b6edaccd21e0c2e1646321e269e504d1408f942bb14e1d8077d33290315328f7",
+      "bytes": 238
+    },
+    {
+      "path": "upstream_code/neuralhydrology/utils/logging_utils.py",
+      "sha256": "5cc284fe3049a244519528ece81b6afe4d44e47a3d47108be5af6e5af5ec7c1e",
+      "bytes": 2943
+    },
+    {
+      "path": "upstream_code/neuralhydrology/utils/nh_results_ensemble.py",
+      "sha256": "175004cc528533fb0e5951a986851925110cad2e46b87bbf0f10dea6cd6c44be",
+      "bytes": 12879
+    },
+    {
+      "path": "upstream_code/neuralhydrology/utils/ratingcurve.py",
+      "sha256": "31cbc9f609b93516f3da9e62342e301cf3950be68144d9bd854617ad199f4961",
+      "bytes": 2933
+    },
+    {
+      "path": "upstream_code/neuralhydrology/utils/samplingutils.py",
+      "sha256": "ab8fa82a2205f76f59eab620d22df53f4fceadd016871265abd0f67b5ad85dc2",
+      "bytes": 28378
+    }
+  ],
+  "public_upload_authorized": false
+}

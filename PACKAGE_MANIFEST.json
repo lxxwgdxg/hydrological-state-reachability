@@ -1,0 +1,513 @@
+{
+  "package_role": "privacy-clean public reproducibility-repository staging package; no upload performed",
+  "created_at_utc": "2026-09-01T03:31:04.228251+00:00",
+  "file_count_excluding_manifest": 101,
+  "total_bytes_excluding_manifest": 7248844,
+  "files": [
+    {
+      "path": "analysis_reproduction/data/core_figure_panel_a.csv",
+      "size_bytes": 49471,
+      "sha256": "e0d7f80756747fb86591819087175a6cb34f434a436b4edc3a01cd4113ebe7d3"
+    },
+    {
+      "path": "analysis_reproduction/data/core_figure_panel_b.csv",
+      "size_bytes": 40619,
+      "sha256": "d34337e64df93ec48effb561fb0f9ad19c8acffb35fa5eb7c177ec50e8f45058"
+    },
+    {
+      "path": "analysis_reproduction/data/core_figure_panel_c.csv",
+      "size_bytes": 328,
+      "sha256": "1e55746de15bfd14718c6c80d810c74d3f56dcb26631efcd827cd8f549807d33"
+    },
+    {
+      "path": "analysis_reproduction/data/core_figure_panel_d.csv",
+      "size_bytes": 399367,
+      "sha256": "8ab4b536fc8d48ca6e60ad197ee8347402c0b8314be2c6701e40719726bd6ecb"
+    },
+    {
+      "path": "analysis_reproduction/data/external_basin_seed_outcomes.csv",
+      "size_bytes": 356076,
+      "sha256": "ece299351a6ffd23a46ab24a570168206e5ac22d5f8fa41b488ae846ac38c7f8"
+    },
+    {
+      "path": "analysis_reproduction/data/feasible_external_transfer_per_basin.csv",
+      "size_bytes": 405109,
+      "sha256": "7b830223b019eb3f26b5271e3253f66b87cf6e4079dd0e98a3ef546b37fd7d3f"
+    },
+    {
+      "path": "analysis_reproduction/data/feasible_retraining_per_basin.csv",
+      "size_bytes": 19360,
+      "sha256": "57023587d6d1abdb19f758ab25b8c36ff421d50742c95c453fc49c11724020e8"
+    },
+    {
+      "path": "analysis_reproduction/data/operator_robustness_per_basin.csv",
+      "size_bytes": 102637,
+      "sha256": "be3f81424fe13267e7ace95dbcce2d38c428d5547708409d4f9bf9979d502e9a"
+    },
+    {
+      "path": "analysis_reproduction/data/unmodified_batch_context_control.csv",
+      "size_bytes": 2959,
+      "sha256": "088fac64a0fb0d00a3c8ec8f553b3eda61914399085d47f07fc567eaa2ec0e6f"
+    },
+    {
+      "path": "analysis_reproduction/data/unmodified_seed11_panel.csv",
+      "size_bytes": 22766,
+      "sha256": "3ca91a018b443624138dfe7c9ce324d2213f779ade53eb60f9888ddbbc55f110"
+    },
+    {
+      "path": "analysis_reproduction/data/window_panel_per_basin.csv",
+      "size_bytes": 21356,
+      "sha256": "25938702df1f4a72400e5a11aafc7bb75a397557cc4e34637d03c618c12a53c5"
+    },
+    {
+      "path": "analysis_reproduction/data/window_seed_condition_summary.csv",
+      "size_bytes": 1493,
+      "sha256": "2f15f15a5c67feb91fffb6c8f37bfa241117082c4d7a173160b4185ffa9e566d"
+    },
+    {
+      "path": "analysis_reproduction/environment.yml",
+      "size_bytes": 146,
+      "sha256": "cec8694f7916a236bf603c565b1f143b93ba1d5666ba3aab3a3c04bc494d9e98"
+    },
+    {
+      "path": "analysis_reproduction/MODEL_REPLAY_BOUNDARY.md",
+      "size_bytes": 1064,
+      "sha256": "40cddd3864e876f4909a0577742c6e1587997635fb62518d9ec1f45d104b4fab"
+    },
+    {
+      "path": "analysis_reproduction/README.md",
+      "size_bytes": 2316,
+      "sha256": "fb2e6867805438975935357c7e73313d2ed5aa6dbf8a1cd6f44cb9f9c0184645"
+    },
+    {
+      "path": "analysis_reproduction/reference/expected_statistics.json",
+      "size_bytes": 18478,
+      "sha256": "f27da29a0e886e0aec1282a1836d2636459495eba5dd9270365d8b725711a181"
+    },
+    {
+      "path": "analysis_reproduction/reference/source_provenance.json",
+      "size_bytes": 10976,
+      "sha256": "46dfcd32973d6bf67c89b80427668efcccaa1a0e0821be51599acce2cac70566"
+    },
+    {
+      "path": "analysis_reproduction/run_all.py",
+      "size_bytes": 609,
+      "sha256": "ac32587ac5dd8014b0467392006570c7e040d11138a8a8ff0544f637220b5556"
+    },
+    {
+      "path": "analysis_reproduction/scripts/plot_core_figure.py",
+      "size_bytes": 5649,
+      "sha256": "eebfb8b68eba9e64acef8b8f2c056dad90e0ac8722f5434abae9ce604f13cc1a"
+    },
+    {
+      "path": "analysis_reproduction/scripts/plot_window_robustness.py",
+      "size_bytes": 3254,
+      "sha256": "75182f9cbf76722a284887035d67ad540adb4a2506bd66b04da8d616f6001363"
+    },
+    {
+      "path": "analysis_reproduction/scripts/reproduce_statistics.py",
+      "size_bytes": 29136,
+      "sha256": "440b8dcc0907167ecb448ef53fd2726e18bdb02cb6ae7944b7c12984ca05af0b"
+    },
+    {
+      "path": "analysis_reproduction/scripts/verify_outputs.py",
+      "size_bytes": 5515,
+      "sha256": "2a505c77201f6fc3c7684e36c1adbd3df037951d79aca6b34b68231cc59da3b3"
+    },
+    {
+      "path": "CITATION.md",
+      "size_bytes": 193,
+      "sha256": "189d7d49072083f1f616822e0e10e608c8d22be48a5b1b80677864f0bbafe490"
+    },
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 1503,
+      "sha256": "87370765ee48e6e1525878b94b5edcd7ab519a57295ca94a9975a2a07d96c12e"
+    },
+    {
+      "path": "model_replay/config/replay_basin.txt",
+      "size_bytes": 9,
+      "sha256": "323a5ab8f8c35c533723caaca3f8ebabb7b77426ff007be94994a71f2f5397ee"
+    },
+    {
+      "path": "model_replay/data/camels_us_basin_03364500/basin_mean_forcing/daymet/05/03364500_lump_cida_forcing_leap.txt",
+      "size_bytes": 755879,
+      "sha256": "b371df3ad475d75385340cbf990b4ece272e3c195e31c90bbb9a39a7a7746f67"
+    },
+    {
+      "path": "model_replay/data/camels_us_basin_03364500/camels_attributes_v2.0/camels_clim.txt",
+      "size_bytes": 100673,
+      "sha256": "6a3a80256afbaea13f59f279c174d3c010156b826ffb53a4cfb5508814404f5f"
+    },
+    {
+      "path": "model_replay/data/camels_us_basin_03364500/camels_attributes_v2.0/camels_geol.txt",
+      "size_bytes": 71595,
+      "sha256": "68e674b9cc61e57260a213681763d7b6b345c4f878a256e0e31275511cae8feb"
+    },
+    {
+      "path": "model_replay/data/camels_us_basin_03364500/camels_attributes_v2.0/camels_hydro.txt",
+      "size_bytes": 122799,
+      "sha256": "7dcae3ea8c28e6485fc9e39b3c5e8bb509d6354ebe9b0b98873ec47fa36e3c41"
+    },
+    {
+      "path": "model_replay/data/camels_us_basin_03364500/camels_attributes_v2.0/camels_name.txt",
+      "size_bytes": 30417,
+      "sha256": "f3a85272cd934c6e12386db5f21979675fc891844250a335135786ad9a2de445"
+    },
+    {
+      "path": "model_replay/data/camels_us_basin_03364500/camels_attributes_v2.0/camels_soil.txt",
+      "size_bytes": 109125,
+      "sha256": "2acabec448fda2d7d93c2182a8a148e0f6a2dfc40f6f0944ec09eda6eeea0a6d"
+    },
+    {
+      "path": "model_replay/data/camels_us_basin_03364500/camels_attributes_v2.0/camels_topo.txt",
+      "size_bytes": 38677,
+      "sha256": "b64ca9923bcaccf21dde33137903797919e8d6732edd7849f8534e0ddcbec8e8"
+    },
+    {
+      "path": "model_replay/data/camels_us_basin_03364500/camels_attributes_v2.0/camels_vege.txt",
+      "size_bytes": 107970,
+      "sha256": "ea97f5d91a2f5acccef21df08417729aade51afe9a2651ab30c2990e7ad63d74"
+    },
+    {
+      "path": "model_replay/data/camels_us_basin_03364500/usgs_streamflow/05/03364500_streamflow_qc.txt",
+      "size_bytes": 398478,
+      "sha256": "8ad4e5247fcc4f0ba9853dbc1cab1f37397de4f44ea0470ae7cea53a4ea0dd0d"
+    },
+    {
+      "path": "model_replay/environment.yml",
+      "size_bytes": 230,
+      "sha256": "7704b11368ec0451fe6c79040616d01156ba316c7e9c03b57f357b0dee96684a"
+    },
+    {
+      "path": "model_replay/model/seed11/config.yml",
+      "size_bytes": 1757,
+      "sha256": "2b30e61402fc93b4b897a24b76ee8d5e9afb2e122ed69197e771d0b6adcb5656"
+    },
+    {
+      "path": "model_replay/model/seed11/model_epoch030.pt",
+      "size_bytes": 3506378,
+      "sha256": "0176531efb337f022d3ac5a46e289857b891d4aeff2884d3550cc30d0e7da61b"
+    },
+    {
+      "path": "model_replay/model/seed11/train_data/train_data_scaler.yml",
+      "size_bytes": 3483,
+      "sha256": "eaff54fa51fa71ae502decae72977ec03523c2bfcf59c0261b62d85007c52a14"
+    },
+    {
+      "path": "model_replay/MODEL_REPLAY_BOUNDARY.md",
+      "size_bytes": 1019,
+      "sha256": "0e0694f422c81651807ea19584ed5c6eec37bec5785afdc2a3c42bc4c949f0cf"
+    },
+    {
+      "path": "model_replay/README.md",
+      "size_bytes": 1882,
+      "sha256": "eb041b80fa4d7ce964dab01c4675b8db6643f70eb0ec5e279b492fd4ec512464"
+    },
+    {
+      "path": "model_replay/reference/expected_replay.json",
+      "size_bytes": 3513,
+      "sha256": "8f53757c91e5aadf799591f510c70500e1717bc6dfa0d36c49d9fa414058d18c"
+    },
+    {
+      "path": "model_replay/reference/provenance.json",
+      "size_bytes": 13992,
+      "sha256": "fd0ae15c3c12dbfe985bcf8212b234c46f8e69afb55b93f9fd3aa0a821f40efe"
+    },
+    {
+      "path": "model_replay/run_all.py",
+      "size_bytes": 1320,
+      "sha256": "f74dc6e746d70e45ad8b8166c9f5257494ad989ef6fbad7f550b97307a5060ab"
+    },
+    {
+      "path": "model_replay/scripts/audit_dpl_h4_sample_norm_checkpoint.py",
+      "size_bytes": 19764,
+      "sha256": "08954e4aa2365d7e3e05054bf4b313cb55a1d7fb5ed8df24c3d831aa4fcb4881"
+    },
+    {
+      "path": "model_replay/scripts/verify_replay.py",
+      "size_bytes": 5779,
+      "sha256": "2af072c7287db51cdf674e991854280cac97071a1c85cfc62dad86eb6116d06e"
+    },
+    {
+      "path": "model_replay/SELF_AUTHORED_LICENSE.md",
+      "size_bytes": 308,
+      "sha256": "5bae2c73965aab0786ca7ed24d934b6015a96d27394092a0aa73da76c055890a"
+    },
+    {
+      "path": "model_replay/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1118,
+      "sha256": "63c5fd293d932687d344ff75ea5c0087ee3003816736426a8682e98d630d837c"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/__about__.py",
+      "size_bytes": 22,
+      "sha256": "179996d3ba52c86aea0cd636121afe5290f3a41b4df85b185344066567fa3c91"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/__init__.py",
+      "size_bytes": 301,
+      "sha256": "0607bcd28c33f74ce4e12d31c731c0d5dda5f7b89efe542fc69c1a4fd23dca01"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/__init__.py",
+      "size_bytes": 4097,
+      "sha256": "5740164845b86cd7e5c4b7e99c2f05db7ba7785acdd858b82ef60981b30ef080"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/basedataset.py",
+      "size_bytes": 38447,
+      "sha256": "1555921fcffdea7d4054fb17a1714fa3b2db0db3f3ff614ff88448d51ca7ffb9"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/camelsaus.py",
+      "size_bytes": 8960,
+      "sha256": "9ae17a440b9abd6b8af20bc9f3b665c49b3e77b2417e09adcc4e1b2c070b0cdf"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/camelsbr.py",
+      "size_bytes": 10047,
+      "sha256": "d0ebf500d4deb675d3ca676b6adbef4673f30445a56aa858f49013373354c2b5"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/camelscl.py",
+      "size_bytes": 9298,
+      "sha256": "165a7888aa65e9b04680b6fd7d42f4fe3d89268cf3692c91b610d3b1a874ed67"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/camelsgb.py",
+      "size_bytes": 6729,
+      "sha256": "1bd0227db6528d0c2aad2ae0aeac211f2e534846c108086947a20ebfc38dccb3"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/camelsus.py",
+      "size_bytes": 9564,
+      "sha256": "be186c9bc656f999716bbfc4dbe5e4f983f5678e10690ce6721af276cbd97eaf"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/genericdataset.py",
+      "size_bytes": 9061,
+      "sha256": "134b739b2af15ce8afa84eec4caeb58b61755f2b919befeaa6bcc1b1163ee665"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/hourlycamelsus.py",
+      "size_bytes": 12454,
+      "sha256": "b26f8a4209c0c2219810c5739f8e0b594dbdec1b93092c8ddfa73b68e25645fa"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/lamah.py",
+      "size_bytes": 13298,
+      "sha256": "03d7238b56b93f2ee5a0ca0a540a9444eb1ab82c07d17ebeecf0fd0f8c28ce90"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datasetzoo/template.py",
+      "size_bytes": 5005,
+      "sha256": "75b25d88bb8533eb01512971f0819f554d14914ee9b17486e7976545946cefda"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datautils/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datautils/climateindices.py",
+      "size_bytes": 9401,
+      "sha256": "eb0b576c7ac6411ce4bc040f1b7afb099eece3635d06cc8018ccfba2447e7ab2"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datautils/dischargeinput.py",
+      "size_bytes": 2879,
+      "sha256": "bba844298b7f7eecc136ecf1c3cf55ac2c7dfcb1b81aa858a298d2c6287c6854"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datautils/pet.py",
+      "size_bytes": 9061,
+      "sha256": "589ce7188d9c460c2c72ca5b3f52207fd6d2ca7dd1c18bc995f430be767635ca"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/datautils/utils.py",
+      "size_bytes": 11618,
+      "sha256": "03db63c1d67143a9d9633e4a08c1c3da490806021879df246443459d314f133f"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/evaluation/__init__.py",
+      "size_bytes": 1414,
+      "sha256": "21d421e9df19c9a34051ed8bc2706bf946b66b48c89583253956ae5b38fe94b0"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/evaluation/evaluate.py",
+      "size_bytes": 817,
+      "sha256": "32c3b75152afceaee77786956103e17989c34b0292bd284ccbb90b7d19283c5d"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/evaluation/metrics.py",
+      "size_bytes": 26490,
+      "sha256": "0e35e318c91b62bbd58dbc5500b1b0153d0b112c2bae3b419e89143d918fb613"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/evaluation/plots.py",
+      "size_bytes": 5878,
+      "sha256": "572c43fc7e377cd351b495ff287b4b13007de0cf708838f47c6f2473612e4937"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/evaluation/signatures.py",
+      "size_bytes": 24873,
+      "sha256": "b4cc5eaed8a8876213554d665e02c2613c3be304df4dc156c7ad6ba7761b1453"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/evaluation/tester.py",
+      "size_bytes": 32407,
+      "sha256": "f1a4d8b30d0595526a0b6500c91e8448c3616efce032050fad5422f2afc8161f"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/evaluation/utils.py",
+      "size_bytes": 2685,
+      "sha256": "16ed32d423c72acfd4645a8a0d8a22c12001e76134a6807cd411bdb3d0e9a4d1"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/modelzoo/__init__.py",
+      "size_bytes": 658,
+      "sha256": "9570ff1c049a763cc6bc1f5b1b585d8646a268972aa3f99e1db1fef78ab21af5"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/modelzoo/basemodel.py",
+      "size_bytes": 2718,
+      "sha256": "71ea16d80be254200a943e778bac0962d29d56971a4f6d7e2ebaa17d1266f1c0"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/modelzoo/ddpl_h.py",
+      "size_bytes": 21571,
+      "sha256": "d311ad916bd53fee3d0a6dbd8c41d6dd25403d8de4fdc52fdaac1ae3b748f526"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/modelzoo/fc.py",
+      "size_bytes": 3151,
+      "sha256": "cd13bdc4e516142b940c6e901df3365654ad2b77123453fb314b5995f0848af0"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/modelzoo/head.py",
+      "size_bytes": 9784,
+      "sha256": "708f03d0b00e857b7c50a2f014cd76044ecc3025ed653164160bea69c481869d"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/modelzoo/inputlayer.py",
+      "size_bytes": 7538,
+      "sha256": "73fcb70b1fa40714e1457a7c70206ea19c84e122d14445ef0b3373457653f489"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/nh_run.py",
+      "size_bytes": 6909,
+      "sha256": "e9f9304f1898eb8a85f0d167ecca9174a158315afd8fe6b658759a96502ac342"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/nh_run_one.py",
+      "size_bytes": 7660,
+      "sha256": "953ccdc0568fb7f9fcb9c5cf4eec9228722ccc65dbcd2bf5f81cf9c13d1e880d"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/nh_run_scheduler.py",
+      "size_bytes": 5648,
+      "sha256": "5087be1706b5131fdfc15d0fcc49976b1bc41942d4093f89d8533bf65616817f"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/training/__init__.py",
+      "size_bytes": 3096,
+      "sha256": "f6e1c8e5e7c6a9d4d0831382dc858ec1d5eb58c802675247fb80eed67760b7a7"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/training/basetrainer.py",
+      "size_bytes": 16446,
+      "sha256": "1025121e49c8df04d4458a901c2f730471d68e67547cc30a5351d7630d60919a"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/training/logger.py",
+      "size_bytes": 6009,
+      "sha256": "5ec81df7dc0e702385fde2776ff51fa99e9228cb14503f4b122dfdf567c94f9a"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/training/loss.py",
+      "size_bytes": 16835,
+      "sha256": "cf1cdce0bddc7c9f214224d4070eb3b1c96a8222d87d80ede6d032c4eb3fa43c"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/training/regularization.py",
+      "size_bytes": 4188,
+      "sha256": "e2fd73a3a0a0f47a1600f6527817f6cf7ea36d57a88f7037f346853f3b7556e4"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/training/train.py",
+      "size_bytes": 752,
+      "sha256": "130605b4590badd1d4ea569530f53b814240bb356324ac1b23ed44218e47ef9a"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/training/umaltrainer.py",
+      "size_bytes": 747,
+      "sha256": "8ff8547f472dd5c8f412a34a79b179a5d89238d2983f81ddf63523a9b8e2c55c"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/training/utils.py",
+      "size_bytes": 2629,
+      "sha256": "f41abb3b2c4ae4316cac256e76b0c4f48d9d65d7186ec2e75ae11753e32e9869"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/utils/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/utils/config.py",
+      "size_bytes": 27327,
+      "sha256": "566f3f32b1d5882ff4b96de6fd0b5166f61107f6a027a2817996427d88202e66"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/utils/configutils.py",
+      "size_bytes": 1639,
+      "sha256": "25fb57e936154aa0804331622a78cbc1305f3eb8726f6dd72390de03016935bf"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/utils/errors.py",
+      "size_bytes": 238,
+      "sha256": "b6edaccd21e0c2e1646321e269e504d1408f942bb14e1d8077d33290315328f7"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/utils/logging_utils.py",
+      "size_bytes": 2943,
+      "sha256": "5cc284fe3049a244519528ece81b6afe4d44e47a3d47108be5af6e5af5ec7c1e"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/utils/nh_results_ensemble.py",
+      "size_bytes": 12879,
+      "sha256": "175004cc528533fb0e5951a986851925110cad2e46b87bbf0f10dea6cd6c44be"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/utils/ratingcurve.py",
+      "size_bytes": 2933,
+      "sha256": "31cbc9f609b93516f3da9e62342e301cf3950be68144d9bd854617ad199f4961"
+    },
+    {
+      "path": "model_replay/upstream_code/neuralhydrology/utils/samplingutils.py",
+      "size_bytes": 28378,
+      "sha256": "ab8fa82a2205f76f59eab620d22df53f4fceadd016871265abd0f67b5ad85dc2"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2017,
+      "sha256": "dc2392eea673768d218222b864dba6554de6c342bb33b4a7715bc2d1df871f75"
+    },
+    {
+      "path": "REPOSITORY_SCOPE.md",
+      "size_bytes": 632,
+      "sha256": "db1fe7cd486632322af8f1dec09c3f3681fa11ec443b8aafa85c55a1a1968db5"
+    },
+    {
+      "path": "run_all.py",
+      "size_bytes": 1031,
+      "sha256": "90d340e6cce3602d1d6d19ccceab7a7b3b51332849aa65839587436dfcc717e7"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1137,
+      "sha256": "a5c18ec0377ad1c58c3b716f778961ae216df2f6776d3f3987da739bbee99ac0"
+    }
+  ]
+}

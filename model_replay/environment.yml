@@ -1,0 +1,14 @@
+name: cee-reachability-model-replay
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.5
+  - numpy=2.2
+  - pandas=2.3
+  - xarray=2025.6
+  - scipy=1.15
+  - matplotlib=3.10
+  - ruamel.yaml
+  - netcdf4

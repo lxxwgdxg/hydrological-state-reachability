@@ -1,0 +1,83 @@
+{
+  "reference_scope": "seed 11, epoch 30, basin 03364500, complete 2000-10-01 to 2010-09-30 test period",
+  "source_audit": "results/constraint_reachability_sample_norm/DPL_H4_PANEL24_SEED11_SAMPLE_NORM_E30_AUDIT.json",
+  "source_audit_sha256": "e222584ae8e8787878a3b39db80ed454da72c7fa02b324c60cb941e4b3d318e8",
+  "expected_official_forward_max_abs_parity_error_mm_day": 0.0,
+  "per_basin": {
+    "basin": "03364500",
+    "performance": {
+      "original": {
+        "n": 3652,
+        "nse": 0.6827943325042725,
+        "kge": 0.723733407446023,
+        "correlation": 0.8273825604728691,
+        "variability_ratio": 0.7895342707633972,
+        "bias_ratio": 0.952770471572876,
+        "rmse_mm_day": 1.9536430835723877
+      },
+      "dormant_et_ceiling": {
+        "n": 3652,
+        "nse": 0.09980344772338867,
+        "kge": -0.2960877920874647,
+        "correlation": 0.7235687732737001,
+        "variability_ratio": 1.1553986072540283,
+        "bias_ratio": 2.2566943168640137,
+        "rmse_mm_day": 3.2911176681518555
+      },
+      "ordered_flux_projection": {
+        "n": 3652,
+        "nse": 0.10742223262786865,
+        "kge": -0.2936017233890378,
+        "correlation": 0.7243382242872952,
+        "variability_ratio": 1.149304986000061,
+        "bias_ratio": 2.2550394535064697,
+        "rmse_mm_day": 3.277161121368408
+      }
+    },
+    "diagnostics": {
+      "original": {
+        "test_days": 3652,
+        "cell_count": 233728,
+        "negative_storage_cell_fraction": 0.4300554490690033,
+        "test_day_any_negative_storage_fraction": 1.0,
+        "negative_storage_mass_sum_mm": 164247.546875,
+        "maximum_negative_storage_mm": 187.1007843017578,
+        "proposed_et_overshoot_cell_fraction": 0.4300554490690033,
+        "test_day_any_proposed_et_overshoot_fraction": 1.0,
+        "proposed_et_overshoot_mass_sum_mm": 164247.546875,
+        "maximum_proposed_et_overshoot_mm_day": 187.1007843017578
+      },
+      "dormant_et_ceiling": {
+        "test_days": 3652,
+        "cell_count": 233728,
+        "negative_storage_cell_fraction": 0.11219451670317634,
+        "test_day_any_negative_storage_fraction": 1.0,
+        "negative_storage_mass_sum_mm": 97.90154266357422,
+        "maximum_negative_storage_mm": 1.1066491603851318,
+        "proposed_et_overshoot_cell_fraction": 0.1268953655531216,
+        "test_day_any_proposed_et_overshoot_fraction": 1.0,
+        "proposed_et_overshoot_mass_sum_mm": 11461.2919921875,
+        "maximum_proposed_et_overshoot_mm_day": 9.3721342086792
+      },
+      "ordered_flux_projection": {
+        "test_days": 3652,
+        "cell_count": 233728,
+        "negative_storage_cell_fraction": 0.0,
+        "test_day_any_negative_storage_fraction": 0.0,
+        "negative_storage_mass_sum_mm": 0.0,
+        "maximum_negative_storage_mm": 0.0,
+        "proposed_et_overshoot_cell_fraction": 0.014688013417305586,
+        "test_day_any_proposed_et_overshoot_fraction": 0.8499452354874042,
+        "proposed_et_overshoot_mass_sum_mm": 11360.1142578125,
+        "maximum_proposed_et_overshoot_mm_day": 9.371137619018555
+      }
+    },
+    "same_checkpoint_effects": {
+      "et_repair_fraction_of_original_negative_mass_removed": 0.999403939087516,
+      "ordered_projection_nse_loss": 0.5753720998764038,
+      "ordered_projection_kge_loss": 1.0173351308350607,
+      "original_vs_ordered_mean_abs_runoff_change_mm_day": 1.7661333084106445,
+      "et_repair_vs_ordered_projection_max_abs_runoff_difference_mm_day": 0.7956161499023438
+    }
+  }
+}
