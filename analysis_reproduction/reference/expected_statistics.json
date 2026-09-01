@@ -1,0 +1,447 @@
+{
+  "core_panel": {
+    "observed": {
+      "same_checkpoint_cross_seed_median_prevalence": 1.0,
+      "same_checkpoint_cross_seed_median_maximum_deficit_mm": 21.522181510925293,
+      "same_checkpoint_cross_seed_median_nse_decline": 0.2886674702167511,
+      "retraining_cross_seed_median_recovery_fraction": 0.9897597918717291,
+      "retraining_cross_seed_median_paired_nse_gap": -0.0010485649108886266,
+      "avoidable_shortcut_seed_count": 3,
+      "avoidable_shortcut_decision": true,
+      "extended_history_seed_pass_counts": {
+        "zero_L730": 3,
+        "zero_L1095": 3
+      },
+      "generous_initial_storage_seed_pass_count": 3,
+      "window_initialization_decision": true
+    },
+    "basin_block_bootstrap": {
+      "same_checkpoint_cross_seed_median_prevalence": {
+        "observed": 1.0,
+        "percentile_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "same_checkpoint_cross_seed_median_maximum_deficit_mm": {
+        "observed": 21.522181510925293,
+        "percentile_95_interval": [
+          13.000219345092773,
+          53.575748443603516
+        ]
+      },
+      "same_checkpoint_cross_seed_median_nse_decline": {
+        "observed": 0.2886674702167511,
+        "percentile_95_interval": [
+          0.06218385696411133,
+          0.9891549944877625
+        ]
+      },
+      "retraining_cross_seed_median_recovery_fraction": {
+        "observed": 0.9897597918717291,
+        "percentile_95_interval": [
+          0.9506878251072498,
+          1.023502474862748
+        ]
+      },
+      "retraining_cross_seed_median_paired_nse_gap": {
+        "observed": -0.0010485649108886266,
+        "percentile_95_interval": [
+          -0.0102264285087585,
+          0.021115124225616448
+        ]
+      },
+      "avoidable_shortcut_decision_fraction": 0.9999,
+      "window_initialization_decision_fraction": 0.986
+    },
+    "leave_one_basin_out": {
+      "deletion_count": 24,
+      "same_checkpoint_cross_seed_median_nse_decline_range": [
+        0.2540115714073181,
+        0.3233233690261841
+      ],
+      "retraining_cross_seed_median_recovery_fraction_range": [
+        0.9769624682185184,
+        1.0025571155249398
+      ],
+      "retraining_cross_seed_median_paired_nse_gap_range": [
+        -0.0020432472229003,
+        -5.3882598876953125e-05
+      ],
+      "avoidable_shortcut_decision_preserved_count": 24,
+      "window_initialization_decision_preserved_count": 24
+    }
+  },
+  "external_transport": {
+    "per_seed_summary": {
+      "11": {
+        "expected_eligible_basin_count": 506,
+        "complete_basin_count": 506,
+        "technical_failure_count": 0,
+        "material_negative_storage_basin_count": 504,
+        "material_negative_storage_basin_fraction_of_frozen_eligible": 0.9960474308300395,
+        "high_skill_basin_count": 169,
+        "high_skill_median_paired_nse_decline": 0.15221381187438965,
+        "high_skill_fraction_with_nse_decline": 0.8461538461538461,
+        "all_basin_original_nse_median": 0.3862110376358032,
+        "all_basin_ordered_nse_median": 0.05581718683242798,
+        "all_basin_paired_nse_decline_median": 0.3166012465953827
+      },
+      "29": {
+        "expected_eligible_basin_count": 506,
+        "complete_basin_count": 506,
+        "technical_failure_count": 0,
+        "material_negative_storage_basin_count": 502,
+        "material_negative_storage_basin_fraction_of_frozen_eligible": 0.9920948616600791,
+        "high_skill_basin_count": 175,
+        "high_skill_median_paired_nse_decline": 0.2880491018295288,
+        "high_skill_fraction_with_nse_decline": 0.8342857142857143,
+        "all_basin_original_nse_median": 0.3817328214645386,
+        "all_basin_ordered_nse_median": -0.2824152708053589,
+        "all_basin_paired_nse_decline_median": 0.6096828877925873
+      },
+      "47": {
+        "expected_eligible_basin_count": 506,
+        "complete_basin_count": 506,
+        "technical_failure_count": 0,
+        "material_negative_storage_basin_count": 504,
+        "material_negative_storage_basin_fraction_of_frozen_eligible": 0.9960474308300395,
+        "high_skill_basin_count": 187,
+        "high_skill_median_paired_nse_decline": 0.35647398233413696,
+        "high_skill_fraction_with_nse_decline": 0.9144385026737968,
+        "all_basin_original_nse_median": 0.41483354568481445,
+        "all_basin_ordered_nse_median": -0.3518451452255249,
+        "all_basin_paired_nse_decline_median": 0.759670227766037
+      }
+    },
+    "basin_block_bootstrap": {
+      "unit": "basin_id with all seed records retained",
+      "replicates": 10000,
+      "rng": "NumPy PCG64",
+      "seed": 20260829,
+      "observed_seed_medians": {
+        "11": 0.15221381187438965,
+        "29": 0.2880491018295288,
+        "47": 0.35647398233413696
+      },
+      "observed_median_of_seed_medians": 0.2880491018295288,
+      "percentile_95_interval": [
+        0.18214982748031616,
+        0.40053790807724
+      ],
+      "lower_bound_above_zero": true
+    },
+    "equal_region_block_bootstrap": {
+      "unit": "HUC02 region; eligible region requires at least five high-skill basins within seed",
+      "represented_region_count": 18,
+      "eligible_region_counts_by_seed": {
+        "11": 10,
+        "29": 13,
+        "47": 11
+      },
+      "replicates": 10000,
+      "rng": "NumPy PCG64",
+      "seed": 20260829,
+      "observed_equal_region_medians_by_seed": {
+        "11": 0.25956785678863525,
+        "29": 0.5272423028945923,
+        "47": 0.4785045385360718
+      },
+      "observed_median_across_seeds": 0.4785045385360718,
+      "percentile_95_interval": [
+        0.05782639980316162,
+        0.7405555546283722
+      ],
+      "lower_bound_above_zero": true
+    },
+    "minimum_leave_one_huc02_out_median_nse_decline": 0.12703877687454224
+  },
+  "window_initialization_decision": "NOT_A_365DAY_ZERO_INITIALIZATION_ARTIFACT",
+  "operator_robustness": {
+    "per_seed_panel_summary": {
+      "11": {
+        "basin_count": 24,
+        "high_skill_basin_count": 19,
+        "median_robust_lower_envelope_nse_loss": 0.25523990392684937,
+        "fraction_robust_lower_envelope_nse_loss_positive": 0.8333333333333334,
+        "high_skill_median_robust_lower_envelope_nse_loss": 0.11244022846221924,
+        "high_skill_fraction_robust_lower_envelope_nse_loss_positive": 0.7894736842105263,
+        "maximum_official_forward_parity_error_mm_day": 0.0,
+        "all_expected_test_days_present": true,
+        "all_frozen_operators_feasible_all_basins": true,
+        "operator_summaries": {
+          "source_order_runoff_first": {
+            "median_nse_loss": 0.25624018907546997,
+            "median_kge_loss": 0.8944397329758683,
+            "median_rmse_change_mm_day": 0.3662826269865036,
+            "best_feasible_operator_count": 3,
+            "feasible_all_basins": true
+          },
+          "proportional_allocation": {
+            "median_nse_loss": 0.2556679844856262,
+            "median_kge_loss": 0.8925969111587366,
+            "median_rmse_change_mm_day": 0.365978941321373,
+            "best_feasible_operator_count": 0,
+            "feasible_all_basins": true
+          },
+          "euclidean_simplex_projection": {
+            "median_nse_loss": 0.2552412748336792,
+            "median_kge_loss": 0.8924532791780204,
+            "median_rmse_change_mm_day": 0.3657074421644211,
+            "best_feasible_operator_count": 11,
+            "feasible_all_basins": true
+          },
+          "et_first_stress": {
+            "median_nse_loss": 0.25523990392684937,
+            "median_kge_loss": 0.8924532800922789,
+            "median_rmse_change_mm_day": 0.3657069355249405,
+            "best_feasible_operator_count": 10,
+            "feasible_all_basins": true
+          }
+        }
+      },
+      "29": {
+        "basin_count": 24,
+        "high_skill_basin_count": 19,
+        "median_robust_lower_envelope_nse_loss": 0.2811393737792969,
+        "fraction_robust_lower_envelope_nse_loss_positive": 0.7916666666666666,
+        "high_skill_median_robust_lower_envelope_nse_loss": 0.15611445903778076,
+        "high_skill_fraction_robust_lower_envelope_nse_loss_positive": 0.7894736842105263,
+        "maximum_official_forward_parity_error_mm_day": 0.0,
+        "all_expected_test_days_present": true,
+        "all_frozen_operators_feasible_all_basins": true,
+        "operator_summaries": {
+          "source_order_runoff_first": {
+            "median_nse_loss": 0.2886674702167511,
+            "median_kge_loss": 0.3648703972967077,
+            "median_rmse_change_mm_day": 0.5140063539147377,
+            "best_feasible_operator_count": 3,
+            "feasible_all_basins": true
+          },
+          "proportional_allocation": {
+            "median_nse_loss": 0.28236183524131775,
+            "median_kge_loss": 0.35329460288026804,
+            "median_rmse_change_mm_day": 0.45152992755174637,
+            "best_feasible_operator_count": 1,
+            "feasible_all_basins": true
+          },
+          "euclidean_simplex_projection": {
+            "median_nse_loss": 0.2811427414417267,
+            "median_kge_loss": 0.35150772996007473,
+            "median_rmse_change_mm_day": 0.4434707835316658,
+            "best_feasible_operator_count": 8,
+            "feasible_all_basins": true
+          },
+          "et_first_stress": {
+            "median_nse_loss": 0.28118544816970825,
+            "median_kge_loss": 0.350557918970628,
+            "median_rmse_change_mm_day": 0.4371897354722023,
+            "best_feasible_operator_count": 12,
+            "feasible_all_basins": true
+          }
+        }
+      },
+      "47": {
+        "basin_count": 24,
+        "high_skill_basin_count": 18,
+        "median_robust_lower_envelope_nse_loss": 0.4301995635032654,
+        "fraction_robust_lower_envelope_nse_loss_positive": 0.9166666666666666,
+        "high_skill_median_robust_lower_envelope_nse_loss": 0.25149017572402954,
+        "high_skill_fraction_robust_lower_envelope_nse_loss_positive": 0.8888888888888888,
+        "maximum_official_forward_parity_error_mm_day": 0.0,
+        "all_expected_test_days_present": true,
+        "all_frozen_operators_feasible_all_basins": true,
+        "operator_summaries": {
+          "source_order_runoff_first": {
+            "median_nse_loss": 0.43132293224334717,
+            "median_kge_loss": 0.7456433160727173,
+            "median_rmse_change_mm_day": 0.5922795012593269,
+            "best_feasible_operator_count": 2,
+            "feasible_all_basins": true
+          },
+          "proportional_allocation": {
+            "median_nse_loss": 0.43081986904144287,
+            "median_kge_loss": 0.744905588054076,
+            "median_rmse_change_mm_day": 0.591921754181385,
+            "best_feasible_operator_count": 0,
+            "feasible_all_basins": true
+          },
+          "euclidean_simplex_projection": {
+            "median_nse_loss": 0.43019986152648926,
+            "median_kge_loss": 0.7442365330442198,
+            "median_rmse_change_mm_day": 0.5918050780892372,
+            "best_feasible_operator_count": 10,
+            "feasible_all_basins": true
+          },
+          "et_first_stress": {
+            "median_nse_loss": 0.4301995635032654,
+            "median_kge_loss": 0.7442363106740049,
+            "median_rmse_change_mm_day": 0.5918040052056313,
+            "best_feasible_operator_count": 12,
+            "feasible_all_basins": true
+          }
+        }
+      }
+    },
+    "operator_robustness_pass": true,
+    "decision": "operator_robust"
+  },
+  "feasible_external_transfer": {
+    "per_seed_summary": {
+      "11": {
+        "basin_count": 506,
+        "high_skill_basin_count": 169,
+        "recovery_eligible_basin_count": 380,
+        "all_basin_median_transfer_gap_nse": -0.03396427631378174,
+        "high_skill_median_transfer_gap_nse": 0.02221578359603882,
+        "high_skill_fraction_transfer_gap_within_0_10": 0.7692307692307693,
+        "recovery_eligible_median_recovery_fraction": 1.0327051454125094,
+        "recovery_eligible_fraction_recovery_at_least_0_80": 0.7947368421052632,
+        "all_basin_fraction_feasible_retrained_beats_fixed_projection": 0.8873517786561265,
+        "median_nse_unconstrained_original": 0.3862110376358032,
+        "median_nse_feasible_retrained": 0.45733144879341125,
+        "median_kge_gap_unconstrained_minus_feasible": -0.04305148005845694,
+        "median_rmse_change_feasible_minus_unconstrained_mm_day": -0.05489039421081543,
+        "median_absolute_bias_ratio_change": 0.2816363573074341
+      },
+      "29": {
+        "basin_count": 506,
+        "high_skill_basin_count": 175,
+        "recovery_eligible_basin_count": 407,
+        "all_basin_median_transfer_gap_nse": -0.027382254600524902,
+        "high_skill_median_transfer_gap_nse": 0.03012216091156006,
+        "high_skill_fraction_transfer_gap_within_0_10": 0.7657142857142857,
+        "recovery_eligible_median_recovery_fraction": 1.0294245846605075,
+        "recovery_eligible_fraction_recovery_at_least_0_80": 0.8624078624078624,
+        "all_basin_fraction_feasible_retrained_beats_fixed_projection": 0.8794466403162056,
+        "median_nse_unconstrained_original": 0.3817328214645386,
+        "median_nse_feasible_retrained": 0.44542792439460754,
+        "median_kge_gap_unconstrained_minus_feasible": -0.05537767404701427,
+        "median_rmse_change_feasible_minus_unconstrained_mm_day": -0.05478549003601074,
+        "median_absolute_bias_ratio_change": 0.27127715945243835
+      },
+      "47": {
+        "basin_count": 506,
+        "high_skill_basin_count": 187,
+        "recovery_eligible_basin_count": 425,
+        "all_basin_median_transfer_gap_nse": -0.011853337287902832,
+        "high_skill_median_transfer_gap_nse": 0.03930068016052246,
+        "high_skill_fraction_transfer_gap_within_0_10": 0.7486631016042781,
+        "recovery_eligible_median_recovery_fraction": 1.0220580201315805,
+        "recovery_eligible_fraction_recovery_at_least_0_80": 0.9035294117647059,
+        "all_basin_fraction_feasible_retrained_beats_fixed_projection": 0.9110671936758893,
+        "median_nse_unconstrained_original": 0.41483354568481445,
+        "median_nse_feasible_retrained": 0.445466011762619,
+        "median_kge_gap_unconstrained_minus_feasible": -0.01523352302469927,
+        "median_rmse_change_feasible_minus_unconstrained_mm_day": -0.02167677879333496,
+        "median_absolute_bias_ratio_change": 0.23871618509292603
+      }
+    },
+    "per_seed_scientific_gates": {
+      "11": {
+        "recovery_capacity_this_seed": true,
+        "recovery_materiality_this_seed": true,
+        "all_basin_transfer_gap_this_seed": true,
+        "high_skill_transfer_gap_this_seed": true,
+        "high_skill_directional_consistency_this_seed": true
+      },
+      "29": {
+        "recovery_capacity_this_seed": true,
+        "recovery_materiality_this_seed": true,
+        "all_basin_transfer_gap_this_seed": true,
+        "high_skill_transfer_gap_this_seed": true,
+        "high_skill_directional_consistency_this_seed": true
+      },
+      "47": {
+        "recovery_capacity_this_seed": true,
+        "recovery_materiality_this_seed": true,
+        "all_basin_transfer_gap_this_seed": true,
+        "high_skill_transfer_gap_this_seed": true,
+        "high_skill_directional_consistency_this_seed": true
+      }
+    },
+    "per_seed_scientific_pass": {
+      "11": true,
+      "29": true,
+      "47": true
+    },
+    "scientific_seed_pass_count": 3,
+    "basin_block_bootstrap": {
+      "unit": "basin with all three seed records retained",
+      "replicates": 10000,
+      "rng": "NumPy PCG64",
+      "seed": 20260901,
+      "metrics": {
+        "all_basin_median_transfer_gap_nse": {
+          "observed": -0.02738225460052485,
+          "percentile_95_interval": [
+            -0.0375482439994812,
+            -0.010907126963138537
+          ]
+        },
+        "high_skill_median_transfer_gap_nse": {
+          "observed": 0.03012216091156,
+          "percentile_95_interval": [
+            0.0192068815231323,
+            0.045330064743757184
+          ]
+        },
+        "recovery_eligible_median_recovery_fraction": {
+          "observed": 1.0294245846605077,
+          "percentile_95_interval": [
+            1.011894581385612,
+            1.0494136421862217
+          ]
+        },
+        "high_skill_fraction_transfer_gap_within_0_10": {
+          "observed": 0.7657142857142857,
+          "percentile_95_interval": [
+            0.7135135135135136,
+            0.8052667140825035
+          ]
+        }
+      },
+      "all_four_metric_gates_pass_fraction": 0.9965
+    },
+    "leave_one_huc02_out": {
+      "region_count": 18,
+      "metric_ranges": {
+        "all_basin_median_transfer_gap_nse": [
+          -0.0292727947235107,
+          -0.0139001011848449
+        ],
+        "high_skill_median_transfer_gap_nse": [
+          0.0239987969398498,
+          0.04019650816917415
+        ],
+        "recovery_eligible_median_recovery_fraction": [
+          1.0234254970944896,
+          1.0340802439078305
+        ],
+        "high_skill_fraction_transfer_gap_within_0_10": [
+          0.7384615384615385,
+          0.7682926829268293
+        ]
+      },
+      "all_regions_preserve_all_four_metric_gates": true
+    }
+  },
+  "unmodified_implementation_control": {
+    "panel_summary": {
+      "basin_fraction_negative_on_at_least_one_percent_test_days": 1.0,
+      "median_negative_test_day_fraction": 0.9455093099671412,
+      "median_maximum_deficit_mm": 29.858778953552246,
+      "median_ordered_projection_nse_loss": 0.32243627309799194
+    },
+    "batch_context_summary": {
+      "focal_sample_count": 20,
+      "maximum_absolute_context_effect_raw_mm_day": 2.361020565032959,
+      "median_maximum_absolute_context_effect_raw_mm_day": 0.3281915665138513,
+      "maximum_relative_context_effect_raw": 141.75762778605127,
+      "median_maximum_relative_context_effect_raw": 4.811338617388187,
+      "raw_path_technically_invariant_at_1e-6_mm_day": false,
+      "raw_path_material_absolute_dependence": true,
+      "raw_path_material_relative_dependence": true
+    }
+  }
+}

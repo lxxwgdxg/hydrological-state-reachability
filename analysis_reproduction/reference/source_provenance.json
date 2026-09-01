@@ -1,0 +1,191 @@
+{
+  "created_at_utc": "2026-09-01T00:39:02.656158+00:00",
+  "package": "cee_reachability_repro_v2 analysis-level candidate",
+  "source_files": [
+    {
+      "package_relative_path": "data/feasible_retraining_per_basin.csv",
+      "project_relative_path": "results/constraint_reachability_feasible_retrain/DPL_H4_FEASIBLE_RETRAIN_THREE_SEED_ADJUDICATION.csv",
+      "source_sha256": "57023587d6d1abdb19f758ab25b8c36ff421d50742c95c453fc49c11724020e8",
+      "package_sha256": "57023587d6d1abdb19f758ab25b8c36ff421d50742c95c453fc49c11724020e8"
+    },
+    {
+      "package_relative_path": "data/external_basin_seed_outcomes.csv",
+      "project_relative_path": "results/cee_submission_readiness/external_heterogeneity/basin_seed_attribute_outcome_join.csv",
+      "source_sha256": "ece299351a6ffd23a46ab24a570168206e5ac22d5f8fa41b488ae846ac38c7f8",
+      "package_sha256": "ece299351a6ffd23a46ab24a570168206e5ac22d5f8fa41b488ae846ac38c7f8"
+    },
+    {
+      "package_relative_path": "data/window_seed_condition_summary.csv",
+      "project_relative_path": "results/cee_submission_readiness/window_initialization/CEE_WINDOW_INITIALIZATION_SEED_CONDITION_SUMMARY.csv",
+      "source_sha256": "2f15f15a5c67feb91fffb6c8f37bfa241117082c4d7a173160b4185ffa9e566d",
+      "package_sha256": "2f15f15a5c67feb91fffb6c8f37bfa241117082c4d7a173160b4185ffa9e566d"
+    },
+    {
+      "package_relative_path": "data/core_figure_panel_a.csv",
+      "project_relative_path": "results/cee_submission_readiness/core_figure_v1/panel_a_external_negative_storage.csv",
+      "source_sha256": "e0d7f80756747fb86591819087175a6cb34f434a436b4edc3a01cd4113ebe7d3",
+      "package_sha256": "e0d7f80756747fb86591819087175a6cb34f434a436b4edc3a01cd4113ebe7d3"
+    },
+    {
+      "package_relative_path": "data/core_figure_panel_b.csv",
+      "project_relative_path": "results/cee_submission_readiness/core_figure_v1/panel_b_high_skill_same_checkpoint_effect.csv",
+      "source_sha256": "d34337e64df93ec48effb561fb0f9ad19c8acffb35fa5eb7c177ec50e8f45058",
+      "package_sha256": "d34337e64df93ec48effb561fb0f9ad19c8acffb35fa5eb7c177ec50e8f45058"
+    },
+    {
+      "package_relative_path": "data/core_figure_panel_c.csv",
+      "project_relative_path": "results/cee_submission_readiness/core_figure_v1/panel_c_feasible_retraining_recovery.csv",
+      "source_sha256": "1e55746de15bfd14718c6c80d810c74d3f56dcb26631efcd827cd8f549807d33",
+      "package_sha256": "1e55746de15bfd14718c6c80d810c74d3f56dcb26631efcd827cd8f549807d33"
+    },
+    {
+      "package_relative_path": "data/core_figure_panel_d.csv",
+      "project_relative_path": "results/cee_submission_readiness/core_figure_v2/panel_d_external_retrained_transfer.csv",
+      "source_sha256": "8ab4b536fc8d48ca6e60ad197ee8347402c0b8314be2c6701e40719726bd6ecb",
+      "package_sha256": "8ab4b536fc8d48ca6e60ad197ee8347402c0b8314be2c6701e40719726bd6ecb"
+    },
+    {
+      "package_relative_path": "data/feasible_external_transfer_per_basin.csv",
+      "project_relative_path": "results/constraint_reachability_feasible_external_transfer/FEASIBLE_EXTERNAL_THREE_SEED_ADJUDICATION.csv",
+      "source_sha256": "7b830223b019eb3f26b5271e3253f66b87cf6e4079dd0e98a3ef546b37fd7d3f",
+      "package_sha256": "7b830223b019eb3f26b5271e3253f66b87cf6e4079dd0e98a3ef546b37fd7d3f"
+    },
+    {
+      "package_relative_path": "data/unmodified_seed11_panel.csv",
+      "project_relative_path": "results/constraint_reachability_stage_c/DPL_H4_PANEL24_SEED11_E30_AUDIT.csv",
+      "source_sha256": "3ca91a018b443624138dfe7c9ce324d2213f779ade53eb60f9888ddbbc55f110",
+      "package_sha256": "3ca91a018b443624138dfe7c9ce324d2213f779ade53eb60f9888ddbbc55f110"
+    },
+    {
+      "package_relative_path": "data/window_panel_per_basin.csv",
+      "derived_from": [
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/zero_L365/SEED11_zero_L365_formal.json",
+          "sha256": "7dfa8d045010c1a9ac1bec1f047bf50c619c96c56ab350dc8beaca0a01671066"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/zero_L365/SEED29_zero_L365_formal.json",
+          "sha256": "c94c880fdcf0e891e493034272a1c464bccd7d7d83ebce7cb00a99e3019c239b"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/zero_L365/SEED47_zero_L365_formal.json",
+          "sha256": "57887a3c44e3c653988cadfaf84431f2b3143dbff4b6c48f1e28d74e89c1b517"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/zero_L730/SEED11_zero_L730_formal.json",
+          "sha256": "5738847dcd19aeed5922301618d95c7b95729934866dcc310fdf5ae94b8c67c5"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/zero_L730/SEED29_zero_L730_formal.json",
+          "sha256": "ecd4285e8d623012e7938a978ca915856eea8ecd33b8350620ac27f187b7f356"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/zero_L730/SEED47_zero_L730_formal.json",
+          "sha256": "ff15f709a2106074ebf328d8b7eed1131980ac39b953ea3c9e3a06a701aad16f"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/zero_L1095/SEED11_zero_L1095_formal.json",
+          "sha256": "9d6c845dbbd47c1cb5bb028f0f1a450527d701712cde8b644fe43aa77b5fd0f7"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/zero_L1095/SEED29_zero_L1095_formal.json",
+          "sha256": "a9952479db940b05ff07e644816ded53e6837b9442cf42381571a4b0ae38a97c"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/zero_L1095/SEED47_zero_L1095_formal.json",
+          "sha256": "494775c0e709cb16b005f755176d2d057762fa2c9edac9ad3fecf9fb18b180f2"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/smax_L365/SEED11_smax_L365_formal.json",
+          "sha256": "122f521bf3088eb066e2a361f2f1716320eb982ca4c7816f90b28a1868090c79"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/smax_L365/SEED29_smax_L365_formal.json",
+          "sha256": "a31b345c23b68f29e111644311d4fa4b431b29116be3754b37b26cd64418fcce"
+        },
+        {
+          "project_relative_path": "results/cee_submission_readiness/window_initialization/smax_L365/SEED47_smax_L365_formal.json",
+          "sha256": "d6dca28f84269ccc8ac7646671a71177b8de7e33ae332111fd4c2cbe65ea8487"
+        }
+      ],
+      "package_sha256": "25938702df1f4a72400e5a11aafc7bb75a397557cc4e34637d03c618c12a53c5"
+    },
+    {
+      "package_relative_path": "data/operator_robustness_per_basin.csv",
+      "derived_from": [
+        {
+          "project_relative_path": "results/constraint_reachability_operator_robustness/DPL_H4_OPERATOR_ROBUSTNESS_SEED11_FORMAL_AUDIT.csv",
+          "sha256": "dad882ffbe4a0b62e82665610d552758b6e04cc943c26a3e799ad9e214048325"
+        },
+        {
+          "project_relative_path": "results/constraint_reachability_operator_robustness/DPL_H4_OPERATOR_ROBUSTNESS_SEED29_FORMAL_AUDIT.csv",
+          "sha256": "41cd52b70f77ffb227fd43f65ac4c3d95909db07473e4ba43c35748c65becf33"
+        },
+        {
+          "project_relative_path": "results/constraint_reachability_operator_robustness/DPL_H4_OPERATOR_ROBUSTNESS_SEED47_FORMAL_AUDIT.csv",
+          "sha256": "41747967d3addef8069734785ca12dcb0130c682d5e6dc5fdda5893cf5270676"
+        }
+      ],
+      "package_sha256": "be3f81424fe13267e7ace95dbcce2d38c428d5547708409d4f9bf9979d502e9a"
+    },
+    {
+      "package_relative_path": "data/unmodified_batch_context_control.csv",
+      "derived_from": {
+        "project_relative_path": "results/constraint_reachability_stage_c/DPL_H4_PANEL24_SEED11_E30_BATCH_CONTEXT_AUDIT.json",
+        "sha256": "89d478bcf770a19b42d2b764580aa0c87ae845c37ed2aeebc4571f7cd04456ef"
+      },
+      "package_sha256": "088fac64a0fb0d00a3c8ec8f553b3eda61914399085d47f07fc567eaa2ec0e6f"
+    }
+  ],
+  "authoritative_reference_files": [
+    {
+      "key": "core_uncertainty",
+      "project_relative_path": "results/cee_submission_readiness/core_uncertainty/CEE_CORE_UNCERTAINTY_AUDIT_2026-08-30.json",
+      "sha256": "ae2c036601e998a2479d99ec062e542cf9ce5cc70d0bfe3888d8b358b3b480ec"
+    },
+    {
+      "key": "external_heterogeneity",
+      "project_relative_path": "results/cee_submission_readiness/external_heterogeneity/CEE_EXTERNAL_HETEROGENEITY_AUDIT_2026-08-29.json",
+      "sha256": "def1bd2fb48b32a3ff6f8a6829be6fc630b9057361e6d6c479b1447c08217ae8"
+    },
+    {
+      "key": "external_transport",
+      "project_relative_path": "results/journal_target_ladder/n2_external_transport/N2_EXTERNAL_TRANSPORT_THREE_SEED_ADJUDICATION.json",
+      "sha256": "857132038c63351fa169530fc255377303cbd207deba3b881a935e03579de444"
+    },
+    {
+      "key": "window_initialization",
+      "project_relative_path": "results/cee_submission_readiness/window_initialization/CEE_WINDOW_INITIALIZATION_ADJUDICATION_CORRECTED_2026-08-30.json",
+      "sha256": "47c01bcf0aa30408997d901b2eeadc891b4fcb5e176b24c82396de763ae676eb"
+    },
+    {
+      "key": "operator_robustness",
+      "project_relative_path": "results/constraint_reachability_operator_robustness/DPL_H4_OPERATOR_ROBUSTNESS_THREE_SEED_ADJUDICATION.json",
+      "sha256": "37b052f6fdb67280c72c0db93d1ef641ad3f88c770204ea6ad71c69dccc9b8b9"
+    },
+    {
+      "key": "feasible_external_transfer",
+      "project_relative_path": "results/constraint_reachability_feasible_external_transfer/FEASIBLE_EXTERNAL_THREE_SEED_ADJUDICATION.json",
+      "sha256": "2c347d5aca54b25ac76eec01f47d15e57ccf6405b3ef2c296b8c1c02db488005"
+    },
+    {
+      "key": "feasible_external_uncertainty",
+      "project_relative_path": "results/cee_submission_readiness/feasible_external_transfer/CEE_FEASIBLE_EXTERNAL_TRANSFER_UNCERTAINTY_2026-09-01.json",
+      "sha256": "b1cd855854b7fc0584594c7c91b956248a5c420ab696e64d915bb083da5c4945"
+    },
+    {
+      "key": "unmodified_seed11_panel",
+      "project_relative_path": "results/constraint_reachability_stage_c/DPL_H4_PANEL24_SEED11_E30_AUDIT.json",
+      "sha256": "4ee5a094280053da7761c0cc2d34f38f90aae44ce37508e20e230205e2c035b6"
+    },
+    {
+      "key": "unmodified_batch_context",
+      "project_relative_path": "results/constraint_reachability_stage_c/DPL_H4_PANEL24_SEED11_E30_BATCH_CONTEXT_AUDIT.json",
+      "sha256": "89d478bcf770a19b42d2b764580aa0c87ae845c37ed2aeebc4571f7cd04456ef"
+    }
+  ],
+  "third_party_material_included": false,
+  "raw_camels_data_included": false,
+  "model_checkpoints_included": false,
+  "internal_workspace_logs_included": false
+}
