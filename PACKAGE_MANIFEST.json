@@ -1,13 +1,13 @@
 {
   "package_role": "public reproducibility repository for the hydrological state-reachability study, prepared for release v1.0.2",
-  "created_at_utc": "2026-09-04T08:15:53.073095+00:00",
+  "created_at_utc": "2026-09-04T08:59:44.074570+00:00",
   "file_count_excluding_manifest": 102,
-  "total_bytes_excluding_manifest": 7252193,
+  "total_bytes_excluding_manifest": 7252181,
   "files": [
     {
       "path": "CITATION.cff",
-      "size_bytes": 1346,
-      "sha256": "228b1c1014918ee0ff606c460f4c40ec5b85d8a4cea2a3d5788765a4b7189b4e"
+      "size_bytes": 1334,
+      "sha256": "b480ff3305dbfcf3cc5bd417f9062c8fb3aba51e0b3e3b72107605930d125b6b"
     },
     {
       "path": "CITATION.md",

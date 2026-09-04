@@ -28,6 +28,4 @@ keywords:
   - state reachability
   - large-sample hydrology
 repository-code: "https://github.com/lxxwgdxg/hydrological-state-reachability"
-license:
-  - MIT
-  - CC-BY-4.0
+license: CC-BY-4.0
