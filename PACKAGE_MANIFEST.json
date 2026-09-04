@@ -1,9 +1,49 @@
 {
-  "package_role": "privacy-clean public reproducibility-repository staging package; no upload performed",
-  "created_at_utc": "2026-09-01T03:31:04.228251+00:00",
-  "file_count_excluding_manifest": 101,
-  "total_bytes_excluding_manifest": 7248844,
+  "package_role": "public reproducibility repository for the hydrological state-reachability study, prepared for release v1.0.2",
+  "created_at_utc": "2026-09-04T08:15:53.073095+00:00",
+  "file_count_excluding_manifest": 102,
+  "total_bytes_excluding_manifest": 7252193,
   "files": [
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 1346,
+      "sha256": "228b1c1014918ee0ff606c460f4c40ec5b85d8a4cea2a3d5788765a4b7189b4e"
+    },
+    {
+      "path": "CITATION.md",
+      "size_bytes": 648,
+      "sha256": "eafb724a751f59a54403dc65fbec9e421b014f0e23048be5151e117d565cb2af"
+    },
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 1503,
+      "sha256": "87370765ee48e6e1525878b94b5edcd7ab519a57295ca94a9975a2a07d96c12e"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2447,
+      "sha256": "9aabaef63e04ded6aee072775fd5d57017913ba1f48026a6acd029b8819af854"
+    },
+    {
+      "path": "REPOSITORY_SCOPE.md",
+      "size_bytes": 632,
+      "sha256": "db1fe7cd486632322af8f1dec09c3f3681fa11ec443b8aafa85c55a1a1968db5"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1137,
+      "sha256": "a5c18ec0377ad1c58c3b716f778961ae216df2f6776d3f3987da739bbee99ac0"
+    },
+    {
+      "path": "analysis_reproduction/MODEL_REPLAY_BOUNDARY.md",
+      "size_bytes": 1144,
+      "sha256": "c7e8dc57e565c70c943a27361e720c2e3a466ef851474f4d17a97747e97703b6"
+    },
+    {
+      "path": "analysis_reproduction/README.md",
+      "size_bytes": 2941,
+      "sha256": "af0eed49904eba184daf346100cbdbdf67140591a82611d0d57ed744cde84c1e"
+    },
     {
       "path": "analysis_reproduction/data/core_figure_panel_a.csv",
       "size_bytes": 49471,
@@ -70,16 +110,6 @@
       "sha256": "cec8694f7916a236bf603c565b1f143b93ba1d5666ba3aab3a3c04bc494d9e98"
     },
     {
-      "path": "analysis_reproduction/MODEL_REPLAY_BOUNDARY.md",
-      "size_bytes": 1064,
-      "sha256": "40cddd3864e876f4909a0577742c6e1587997635fb62518d9ec1f45d104b4fab"
-    },
-    {
-      "path": "analysis_reproduction/README.md",
-      "size_bytes": 2316,
-      "sha256": "fb2e6867805438975935357c7e73313d2ed5aa6dbf8a1cd6f44cb9f9c0184645"
-    },
-    {
       "path": "analysis_reproduction/reference/expected_statistics.json",
       "size_bytes": 18478,
       "sha256": "f27da29a0e886e0aec1282a1836d2636459495eba5dd9270365d8b725711a181"
@@ -115,14 +145,24 @@
       "sha256": "2a505c77201f6fc3c7684e36c1adbd3df037951d79aca6b34b68231cc59da3b3"
     },
     {
-      "path": "CITATION.md",
-      "size_bytes": 193,
-      "sha256": "189d7d49072083f1f616822e0e10e608c8d22be48a5b1b80677864f0bbafe490"
+      "path": "model_replay/MODEL_REPLAY_BOUNDARY.md",
+      "size_bytes": 1181,
+      "sha256": "9ac5abc3fc2ae83735809362432c8b1fcb23523019cd39da5cfe57b859e5e03a"
     },
     {
-      "path": "LICENSE.md",
-      "size_bytes": 1503,
-      "sha256": "87370765ee48e6e1525878b94b5edcd7ab519a57295ca94a9975a2a07d96c12e"
+      "path": "model_replay/README.md",
+      "size_bytes": 2133,
+      "sha256": "2a760be34bdcc411530c2c6f2752e01657e54f141265eaaae683f3fdcb208a6c"
+    },
+    {
+      "path": "model_replay/SELF_AUTHORED_LICENSE.md",
+      "size_bytes": 308,
+      "sha256": "5bae2c73965aab0786ca7ed24d934b6015a96d27394092a0aa73da76c055890a"
+    },
+    {
+      "path": "model_replay/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1118,
+      "sha256": "63c5fd293d932687d344ff75ea5c0087ee3003816736426a8682e98d630d837c"
     },
     {
       "path": "model_replay/config/replay_basin.txt",
@@ -195,16 +235,6 @@
       "sha256": "eaff54fa51fa71ae502decae72977ec03523c2bfcf59c0261b62d85007c52a14"
     },
     {
-      "path": "model_replay/MODEL_REPLAY_BOUNDARY.md",
-      "size_bytes": 1019,
-      "sha256": "0e0694f422c81651807ea19584ed5c6eec37bec5785afdc2a3c42bc4c949f0cf"
-    },
-    {
-      "path": "model_replay/README.md",
-      "size_bytes": 1882,
-      "sha256": "eb041b80fa4d7ce964dab01c4675b8db6643f70eb0ec5e279b492fd4ec512464"
-    },
-    {
       "path": "model_replay/reference/expected_replay.json",
       "size_bytes": 3513,
       "sha256": "8f53757c91e5aadf799591f510c70500e1717bc6dfa0d36c49d9fa414058d18c"
@@ -228,16 +258,6 @@
       "path": "model_replay/scripts/verify_replay.py",
       "size_bytes": 5779,
       "sha256": "2af072c7287db51cdf674e991854280cac97071a1c85cfc62dad86eb6116d06e"
-    },
-    {
-      "path": "model_replay/SELF_AUTHORED_LICENSE.md",
-      "size_bytes": 308,
-      "sha256": "5bae2c73965aab0786ca7ed24d934b6015a96d27394092a0aa73da76c055890a"
-    },
-    {
-      "path": "model_replay/THIRD_PARTY_NOTICES.md",
-      "size_bytes": 1118,
-      "sha256": "63c5fd293d932687d344ff75ea5c0087ee3003816736426a8682e98d630d837c"
     },
     {
       "path": "model_replay/upstream_code/neuralhydrology/__about__.py",
@@ -490,24 +510,9 @@
       "sha256": "ab8fa82a2205f76f59eab620d22df53f4fceadd016871265abd0f67b5ad85dc2"
     },
     {
-      "path": "README.md",
-      "size_bytes": 2017,
-      "sha256": "dc2392eea673768d218222b864dba6554de6c342bb33b4a7715bc2d1df871f75"
-    },
-    {
-      "path": "REPOSITORY_SCOPE.md",
-      "size_bytes": 632,
-      "sha256": "db1fe7cd486632322af8f1dec09c3f3681fa11ec443b8aafa85c55a1a1968db5"
-    },
-    {
       "path": "run_all.py",
       "size_bytes": 1031,
       "sha256": "90d340e6cce3602d1d6d19ccceab7a7b3b51332849aa65839587436dfcc717e7"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "size_bytes": 1137,
-      "sha256": "a5c18ec0377ad1c58c3b716f778961ae216df2f6776d3f3987da739bbee99ac0"
     }
   ]
 }

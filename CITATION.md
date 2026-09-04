@@ -1,4 +1,3 @@
-
 # Citation
 
 Please cite the archived software release as:
