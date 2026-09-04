@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release."
+title: "Reachability diagnosis in a mass-conserving hydrological learner"
+type: software
+version: "1.0.2"
+authors:
+  - family-names: "Li"
+    given-names: "Xue"
+    affiliation: "Tianjin Key Laboratory of Water Resources and Environment, Tianjin Normal University"
+  - family-names: "Liu"
+    given-names: "Xiao-Yi"
+    affiliation: "Tianjin Key Laboratory of Water Resources and Environment, Tianjin Normal University"
+  - family-names: "Wang"
+    given-names: "Li"
+    affiliation: "Tianjin Key Laboratory of Water Resources and Environment, Tianjin Normal University"
+  - family-names: "Sha"
+    given-names: "Jian"
+    affiliation: "Tianjin Key Laboratory of Water Resources and Environment, Tianjin Normal University"
+abstract: >-
+  Reproducibility software and compact derived data for a fixed-weight
+  state-reachability audit of a mass-conserving recurrent rainfall-runoff
+  model. The package separates analysis-level reproduction from a
+  claim-specific one-checkpoint model replay.
+keywords:
+  - hydrological model diagnostics
+  - physics-guided machine learning
+  - mass conservation
+  - state reachability
+  - large-sample hydrology
+repository-code: "https://github.com/lxxwgdxg/hydrological-state-reachability"
+license:
+  - MIT
+  - CC-BY-4.0
