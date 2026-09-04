@@ -1,15 +1,9 @@
 # Model replay boundary
 
-The audited DPL-H source archive is available from Zenodo DOI `10.5281/zenodo.14515143`, associated with He et al. (2024), DOI `10.1029/2024WR037582`.
+The `analysis_reproduction/` directory rebuilds the retained statistics and figures from compact derived tables. It does not independently reconstruct model checkpoints from raw forcings or repeat model training.
 
-At the time this candidate was built, the Zenodo record exposed a Rights/License heading without a concrete license value, and the downloaded top-level code directory contained no LICENSE, COPYING or NOTICE file. The upstream source is therefore not redistributed here.
+The sibling `model_replay/` directory provides a claim-specific executable check at one frozen checkpoint and one complete held-out test basin. It verifies loading and normalization, numerical parity between the explicit reference transition and the archived model forward method, the same-checkpoint reachability intervention, and the retained basin-level numerical fields.
 
-Full model replay additionally requires:
+The full three-seed, 24-basin, and 506-basin results are reproduced from frozen derived tables in the analysis-level directory rather than rerun at model level. Neither layer establishes independent-dataset or cross-architecture generality, or that reachable latent states uniquely correspond to observed hydrological states.
 
-- obtaining the upstream archive from its original source;
-- obtaining CAMELS-US forcing, discharge and attribute data under their source terms;
-- applying the documented self-authored reachability changes or patch;
-- using the frozen 24-basin and 506-basin lists, seeds and epoch-30 checkpoint identities;
-- either obtaining permitted checkpoint files or retraining from the fixed configurations.
-
-Until licensing, path portability and checkpoint-distribution reviews are complete, this directory must not be described as a self-contained model-level reproduction package.
+Licensing and attribution for self-authored and third-party material are specified in the repository-root `LICENSE.md` and `THIRD_PARTY_NOTICES.md` and in the corresponding files under `model_replay/`.
